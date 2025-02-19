@@ -6,7 +6,7 @@
     <title>Document</title>
     <head> <link rel="stylesheet" href="app.component.css" />
     </head>
-   
+
   </head>
   <body>
     <h1>This is my first Angular App</h1>
@@ -58,7 +58,7 @@
 <p>######################################################</p>
 <h1>ngFor</h1>
 <ul>
-  <!-- <li *ngFor= "let item  is items" >{{ item }}</li> --> wrong syntex improve this 
+  <!-- <li *ngFor= "let item  is items" >{{ item }}</li> --> wrong syntex improve this
    <li *ngFor="let item of items">{{ item }}</li>
 
 </ul>
@@ -84,3 +84,21 @@
   <p *ngSwitchCase="3">pg3</p>
   <p *ngSwitchCase="2">default</p>
 </div>
+<p>#######################################################</p>
+<h1>
+  Attribute Directives(conditional styling)
+</h1>
+<h2>ngStyle</h2>
+<p [ngStyle]="{'color':textColor,'font-size':textFontSize}">Cricket is a bat-and-ball
+  game played between two teams of 11 players on
+   an oval field. The goal is to score the most runs</p>
+
+
+
+   <p>
+    ng clsss
+   </p>
+   <button (click)="change()">clickto change  the color</button>
+    <p [ngClass]="{'basic':isBasic,'classicc':!isBasic}">testof the ngclass</p>
+
+

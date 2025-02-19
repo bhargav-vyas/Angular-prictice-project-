@@ -2,3 +2,41 @@ h1{
     background-color: brown;
 
 }
+p
+{
+  color: blue;
+  font-size: 25;
+}
+
+.basic{
+  color: red;
+  font-size: 25;
+  font-family: 'Courier New', Courier, monospace;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightblue;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+
+}
+
+.classic{
+  color: green;
+  font-size: 25;
+  font-family: 'Courier New', Courier, monospace;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightblue;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+}
